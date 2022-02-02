@@ -8,6 +8,11 @@ export function Counter(){
         window.localStorage.setItem('count', count.toString())
     }, [count])
 
-    return <button onClick={incrementCount}>{count}</button>
+    return (
+        <div style={{ textAlign: 'center', padding: '20px' }}>
+            <button style={{ margin: 5, fontSize: '3em'}} onClick={incrementCount}>{count}</button>
+        </div>
+        
+    )
 }
 

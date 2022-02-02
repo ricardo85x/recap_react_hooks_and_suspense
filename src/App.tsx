@@ -6,7 +6,6 @@ import { StopwatchWithReducer } from './components/StopwatchWithReducer';
 import { StopwatchWithReducerV2 } from './components/StopwatchWithReducerV2';
 import { TiltBox } from "./components/Tilt"
 
-
 function App() {
   return (
     <div className="App" 

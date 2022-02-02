@@ -18,8 +18,8 @@ function Tilt(props: any) {
     }, [])
 
     return(
-        <div ref={tiltRef} className="tilt-root">
-            <div className="tilt-child">
+        <div ref={tiltRef} className="tilt-root"  style={{ textAlign: 'center', padding: '20px' }}>
+            <div style={{ fontSize: '5em'}}>
                 {props.children}
             </div>
         </div>
