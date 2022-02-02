@@ -2,6 +2,7 @@ import React from 'react';
 import { Counter } from './components/Counter';
 import { Stopwatch } from './components/Stopwatch';
 import { StopwatchWithReducer } from './components/StopwatchWithReducer';
+import { StopwatchWithReducerV2 } from './components/StopwatchWithReducerV2';
 import { TiltBox } from "./components/Tilt"
 
 
@@ -20,6 +21,7 @@ function App() {
       <TiltBox />
       <Stopwatch />
       <StopwatchWithReducer />
+      <StopwatchWithReducerV2 />
 
     </div>
   );
