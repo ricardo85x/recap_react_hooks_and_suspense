@@ -18,6 +18,8 @@ export function Navigation() {
             <NavLink to="/stopwatch2">Stopwatch w/ Reducer</NavLink>
             <NavLink to="/stopwatch3">Stopwatch w/ Reducer simplified</NavLink>
             <NavLink to="/stopwatch4">Stopwatch w/ useStopwatch</NavLink>
+            <NavLink to="/idle">is idle</NavLink>
+            <NavLink to="/memo">Le Memo</NavLink>
            
 
         </nav>

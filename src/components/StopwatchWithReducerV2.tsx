@@ -33,7 +33,6 @@ export function StopwatchWithReducerV2(){
                 setState({ lapse: Date.now() - startTime })
             }, 0)
         }
-
         setState({ running: !running})
     }
 
@@ -41,10 +40,7 @@ export function StopwatchWithReducerV2(){
         if(intervalRef.current){
             clearInterval(intervalRef.current)
         }
-
         setState({ lapse: 0, running: false })
-
-       
     }
 
     return(
@@ -59,7 +55,6 @@ export function StopwatchWithReducerV2(){
             </label>
             <button onClick={handleRunClick} style={{ margin: 5, fontSize: '3em'}}>{running ? 'Stop' : 'Start'}</button>
             <button onClick={handleClearClick} style={{ margin: 5, fontSize: '3em'}}>Clear</button>
-            
         </div>
     )
 }
