@@ -2,7 +2,7 @@ import {useRef, useEffect } from "react"
 import VanillaTilt from 'vanilla-tilt'
 
 
-function Tilt(props: any) {
+export function Tilt(props: any) {
 
     const tiltRef = useRef<any>()
 
@@ -14,7 +14,10 @@ function Tilt(props: any) {
             'max-glare': 0.5
         })
 
-        return () => tiltRef.current.vanillaTilt.destroy()
+        const currentTilt = tiltRef.current
+
+        return () =>  currentTilt?.vanillaTilt.destroy()
+        
         
     }, [])
 
