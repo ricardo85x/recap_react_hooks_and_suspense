@@ -21,6 +21,7 @@ export function Navigation() {
             <NavLink to="/idle">is idle</NavLink>
             <NavLink to="/memo">Le Memo</NavLink>
             <NavLink to="/lazy">Lazy </NavLink>
+            <NavLink to="/pokemon">Poke suspense </NavLink>
            
 
         </nav>

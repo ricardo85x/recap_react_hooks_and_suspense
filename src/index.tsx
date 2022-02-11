@@ -11,6 +11,7 @@ import { StopwatchHook } from "./components/StopwatchHook";
 import { IdleComponent } from "./components/IdleComponent";
 import { LeMemo } from "./components/LeMemo";
 import { Toggle } from "./components/Toggle";
+import { PokemonInfo } from "./components/PokemonInfo";
 
 
 ReactDOM.render(
@@ -27,6 +28,7 @@ ReactDOM.render(
         <Route path="/idle" element={<IdleComponent />} />
         <Route path="/memo" element={<LeMemo />} />
         <Route path="/lazy" element={<Toggle />} />
+        <Route path="/pokemon" element={<PokemonInfo />} />
       </Routes>
     </BrowserRouter>
     {/* <App /> */}
